@@ -11,11 +11,7 @@ concurrency:
   cancel-in-progress: true
 
 on:
-  pull_request:
-    paths:
-      - '**/*'
-      - '!docs/**'
-      - '!README.md'
+  workflow_dispatch:
 
 jobs:
   changes:

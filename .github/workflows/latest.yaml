@@ -1,8 +1,7 @@
 name: latest
 
 on:
-  release:
-    types: [released]
+  workflow_dispatch:
 
 jobs:
   update-latest:
